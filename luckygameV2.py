@@ -81,6 +81,7 @@ class luckygame1:
             else:
                 print("luckygame, store, for end program \"exit\">>>")
 
+    # This function allows the user to buy a lucky item according to his inventory so that he can open the box again
     def store(self):
         while True:
             print("your Money:", self.myMoney,"your chances:", self.myChangeBox)
